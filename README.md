@@ -5,6 +5,6 @@ it will search for duplicates in the list, remove them, and count how many were 
 generated. 
 
 Output will consist of:
-Max value
-Number of duplicates
+Max value, 
+Number of duplicates, 
 Computation time
