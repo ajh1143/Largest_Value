@@ -1,6 +1,7 @@
 from random import randint
 import time
 
+#Generates a random list of numbers through a user defined range and amount
 def number_generator(range, amount):
     counter = 0
     list = []
@@ -10,6 +11,7 @@ def number_generator(range, amount):
         counter += 1
     return list
 
+#Find the largest value in the generated list, checks for duplicate entries, removes them and calculates runtime 
 def find_largest(numberlist):
     time_start = time.clock()
     duplicateCount = 0
@@ -21,6 +23,7 @@ def find_largest(numberlist):
     latency = (time.clock() - time_start)
     return {'Max':max_num, 'Duplicates':duplicateCount ,'Computation Time':format(latency, '.10f')}
 
+#Run program
 Number = number_generator(100, 200)
 Result = find_largest(Number)
 for key in reversed(sorted(Result)):
