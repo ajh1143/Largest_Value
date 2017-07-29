@@ -7,6 +7,7 @@ After this, it will search for duplicates in the list, remove them, and count ho
 In addition, computation time will be generated. 
 
 Output will consist of:
+
 Max value
 
 Number of duplicates 
