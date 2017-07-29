@@ -8,5 +8,7 @@ In addition, computation time will be generated.
 
 Output will consist of:
 Max value
+
 Number of duplicates 
+
 Computation time
