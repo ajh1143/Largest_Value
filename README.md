@@ -8,12 +8,12 @@ In addition, computation time will be generated.
 
 Output will consist of:
 
-Original list, the number of elements contained, and the average value
+A) Original list, the number of elements contained, and the average value
 
-Processed list, the number of elements contained, and the average vaue
+B) Processed list, the number of elements contained, and the average vaue
 
-The Max value of the original list
+C) The Max value of the original list
 
-Number of duplicates of the max value contained in the original list
+D) Number of duplicates of the max value contained in the original list
 
-Computation time of list processing
+E) Computation time of list processing
