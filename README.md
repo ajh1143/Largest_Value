@@ -10,7 +10,7 @@ Output will consist of:
 
 A) Original list, the number of elements contained, and the average value
 
-B) Processed list, the number of elements contained, and the average vaue
+B) Processed list, the number of elements contained, and the average value
 
 C) The Max value of the original list
 
