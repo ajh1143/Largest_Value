@@ -37,8 +37,12 @@ def find_largest(numberlist):
 
 #Run program
 if __name__ == "__main__":
-Number = number_generator(100, 1000)
-Result = find_largest(Number)
-print("Results:")
-for key in reversed(sorted(Result)):
-    print("%s: %s" % (key, Result[key]))
+    print("Please enter the largest range you would like to consider. Ex. Enter '100' to generate a random list including values from 1-100")
+    Range = int(input())
+    print("\nPlease enter that number of entries you would like to generate. Ex. Enter '50' to generate 50 entries in your list.")
+    Amount = int(input())
+    Number = number_generator(Range, Amount)
+    Result = find_largest(Number)
+    print("Results:")
+    for key in reversed(sorted(Result)):
+        print("%s: %s" % (key, Result[key]))
