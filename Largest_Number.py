@@ -36,6 +36,7 @@ def find_largest(numberlist):
     return {'Max':max_num, 'Duplicates':duplicateCount ,'Computation Time':format(latency, '.10f')}
 
 #Run program
+if __name__ == "__main__":
 Number = number_generator(100, 1000)
 Result = find_largest(Number)
 print("Results:")
